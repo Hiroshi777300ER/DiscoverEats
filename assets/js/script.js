@@ -138,7 +138,7 @@ function myFunction() {
           return response.json();
         })
         .then(function(response) {
-          console.log(response.data[0]);
+         // console.log(response.data[0]);
           // Create a variable that will select the <div> where the GIF will be displayed
           var responseContainerEl = document.querySelector('#response-container');
      // Empty out the <div> before we append a GIF to it
